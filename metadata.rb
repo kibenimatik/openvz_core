@@ -1,3 +1,4 @@
+name             "openvz_core"
 maintainer       "Nikhil Mungel, Ajey Gore"
 maintainer_email "hyfather@gmail.com, ajeygore@gmail.com"
 license          "GNU General Public License v3"
