@@ -1,1 +1,1 @@
-node["hostid"] = "101"
+default[["hostid"] = "101"
