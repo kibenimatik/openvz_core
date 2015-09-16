@@ -27,7 +27,7 @@ module DevCloud
       next_ctid = hsh.sort.find{|pair| pair.last.empty?}.first
       Chef::Log.info("Next CTID found => #{next_ctid}")
       all_ctids[next_ctid] = "#{name} -- #{Time.now}"
-      all_ctids.save
+      #all_ctids.save
 
       next_ctid
     end
