@@ -19,7 +19,7 @@
 
 actions :create, :start, :nothing
 
-only_letters_numbers_and_underscores = /^[a-zA-Z_\d]+$/
+only_letters_numbers_and_underscores = /^[a-zA-Z_-\d]+$/
 
 attribute :ctid, :kind_of => String
 attribute :name, :regex => only_letters_numbers_and_underscores
