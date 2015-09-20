@@ -27,7 +27,8 @@ module DevCloud
         {
           :ipadd => "#{subnet}.#{hostid}.#{ctid}",
           :hostname => sprintf("vm%.3d-%.3d.development.my_company.com", hostid, ctid),
-          :ostemplate => chef_resource.ostemplate
+          :ostemplate => chef_resource.ostemplate,
+          :config     => 'vps.basic'
         }
       end
     end
